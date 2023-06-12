@@ -1,0 +1,26 @@
+@mixin titleColor {
+    color: #FFFFFF;
+}
+@mixin fontGilroy {
+    font-family: 'Gilroy';
+    font-style: normal;
+}
+@mixin pinkColor {
+    color: #ff3459;
+}
+@mixin blueColor {
+    color: #4252d1;
+}
+
+@mixin resetStyle {
+    margin: 0;
+    padding: 0;
+}
+
+@mixin container {
+    width: 70%;
+    margin: 0 auto;
+    @media (max-width: 1050px) {
+        width: 90%;
+     }
+}

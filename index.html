@@ -5,8 +5,154 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/intl-tel-input@18.1.1/build/css/intlTelInput.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/alertify.min.css"/>
+    <!-- Default theme -->
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/themes/default.min.css"/>
+    <!-- Semantic UI theme -->
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/themes/semantic.min.css"/>
+    <!-- Bootstrap theme -->
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/themes/bootstrap.min.css"/>
+    <!-- style -->
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    
+   <div class="wrapper"> 
+    <header class="header">
+        <div class="container">
+            <div class="logo-block">
+                <img src="./images/logo/Shape.png" alt="logo" class="logo"></img>
+                <div class="logo-description">
+                    <p>POWERCODE</p>
+                    <b>ACADEMY</b>
+                </div>
+            </div>
+            <nav class="header-menu">
+                <ul class="menu-list">
+                    <li class="menu-item">
+                        <img src="/images/logo/Vector.png" alt="">
+                        28 декабря
+                    </li>
+                    <li class="menu-item">
+                        <div><img src="/images/logo/clock.png" alt=""></div>
+                        3,5 часа
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container">
+            <div class="content content__about">
+                <button type="button" class="content__about-btn">
+                    <img src="/images/logo/earth.png" alt="earth"> Вебинар
+                </button>
+                <h1 class="content__about-title">FRONT-END</h1>
+                <div class="content__about-block">
+                    <span class="description">С НУЛЯ</span>
+                    <span class="description">легкий старт в IT профессии</span>
+                </div>
+                <div class="content__about-description">
+                    Узнайте какими <b>навыками должен обладать фронтенд разработчик в 2022 году</b> и как начать карьеру в востребованной профессии 
+                    <span class="blue-row">с зарплатой <b>от 1 000$</b></span>
+                        </div>
+
+                    <div class="content__about-news">
+                        <div class="news__item">
+                            <div class="news__item-img hidden">
+                                <img src="./images/news-img-1.png" alt="">
+                            </div>
+                            <div class="news__item-description">
+                                <h4 class="news__item-title first">Кирилл <span>КАСАТОНОВ</span></h4>
+                                <p class="news__item-description">6 лет коммерческого опыта с такими  компаниями как Mercedes-Benz и другими крупными корпорациями</p>
+                            </div>
+                        </div>
+                        <div class="news__item">
+                            <div class="news__item-img">
+                                <img src="./images/news-img-2.png" alt="">
+                            </div>
+                            <div class="news__item-description">
+                                <h4 class="news__item-title">Бонус за регистрацию</h4>
+                                <p class="news__item-description">PDF-файл "5 преимуществ профессии фронтенд разработчика" </p>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="content content__form">
+                <form class="form">
+                    <h1 class="form__title">Запишитесь <span>бесплатно</span>
+                        и получите подарок</h1>
+                    <div class="form__block">
+                        <input id="form-name" class="form__block-input" type="text" placeholder="Ваше имя и фамилия">
+                        <div class="error">Мінімум 8 букв</div>
+                    </div>
+                    <div class="form__block">
+                        <input id="form-number" class="form__block-input" type="tel" placeholder="Ваш номер телефона">
+                        <div class="error">Номер телефону введено невірно</div>
+                    </div>
+                    <div class="form__block">
+                        <input id="form-email" class="form__block-input" type="text" placeholder="Ваш email">
+                        <div class="error">Невірно введений email</div>
+                        
+                    </div>
+                    <div class="form__block">
+                        <input id="form-submit" class="form__block-submit" type="submit" value="Записаться бесплатно">
+                    </div>
+                    <div class="form__block">
+                        <input type="checkbox" checked id="form-consent">
+                        <label for="form-consent" class="form__block-consent">
+                            Нажимая на кнопку я согашаюсь <a href="">с политикой конфидециальности</a>
+                        </label>
+                    </div>
+                </form>
+            </div>
+
+            <div class="news-adaptive">
+                <div class="news__item">
+                    <div class="news__item-img hidden">
+                        <img src="./images/news-img-1.png" alt="">
+                    </div>
+                    <div class="news__item-description">
+                        <h4 class="news__item-title first">Кирилл <span>КАСАТОНОВ</span></h4>
+                        <p class="news__item-description">6 лет коммерческого опыта с такими  компаниями как Mercedes-Benz и другими крупными корпорациями</p>
+                    </div>
+                </div>
+                <div class="news__item">
+                    <div class="news__item-img">
+                        <img src="./images/news-img-2.png" alt="">
+                    </div>
+                    <div class="news__item-description">
+                        <h4 class="news__item-title">Бонус за регистрацию</h4>
+                        <p class="news__item-description">PDF-файл "5 преимуществ профессии фронтенд разработчика" </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="block__icons">
+            <div class="html"><img  width="88" height="88" src="/images/1024px-HTML5_logo_and_wordmark.png" alt=""></div>
+            <div class="css"><img  width="60" height="85" src="/images/1452px-CSS3_logo_and_wordmark.png" alt=""></div>
+            <div class="javascript"><img  width="62" height="72" src="/images/javascript.png" alt=""></div>
+            <div class="sublime"><img  width="54" height="54" src="/images/1505369583_sublime-text 1.png" alt=""></div>
+            <div class="vsc"><img  width="60" height="60" src="/images/Visual_Studio_Code_1.35_icon.png" alt=""></div>
+        </div>
+    </main>
+    <div class="wrapper-loading"><img src="./images/logo/icon.gif" alt="gif"></div>
+   </div>
+
+    <!-- email -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <!-- jQuery -->
+    <script src="./lib/jQuery/jquery-3.6.0.min.js"></script>
+    <!-- alertyfly -->
+    <script src="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/alertify.min.js"></script>
+    <!-- axios -->
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <!-- intlTelInput -->
+    <script src="https://cdn.jsdelivr.net/npm/intl-tel-input@18.1.1/build/js/intlTelInput.min.js"></script>
+    <!-- script -->
+    <script src="./js/scr.js"></script>
+
 </body>
 </html>
